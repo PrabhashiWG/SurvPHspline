@@ -1,0 +1,14 @@
+Package: SurvPHspline
+Title: The package provides statistical methods for conducting regression analysis of arbitrarily censored data that are potentially subject to left truncation under the PH model with monotone splines.
+Version: 0.0.0.9000
+Author: Prabhashi Withana Gamage and Christopher S. McMahan and  Lianming Wang
+Maintainer: Prabhashi Withana Gamage <withanpw@jmu.edu>
+Description: Currently using the proportional hazards (PH) model.
+Imports: 
+    splines2, ICsurv, numDeriv, Rdpack
+RdMacros: Rdpack
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
